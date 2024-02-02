@@ -52,6 +52,6 @@ The reviews were categorized into three distinct sentiment categories: "Good," "
 - Convolution Neural Network (CNN)
 
 For more details on the algorithms used, please refer to the respective folders:
-- [Machine Learning Algorithms](Machine-Learning-Algorithms/)
-- [Deep Learning Algorithms](Deep-Learning-Algorithms/)
+- [Machine Learning Algorithms](Machine%20Learning%20Algorithms/)
+- [Deep Learning Algorithms](Deep%20Learning%20Algorithms/)
 
