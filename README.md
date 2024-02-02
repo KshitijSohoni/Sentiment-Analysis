@@ -88,6 +88,12 @@ These combinations leverage the strengths of multiple algorithms, contributing t
 
 ---
 
+# Second Approach: Categorizing by Review Ratings
+
+The reviews were now categorized into five distinct sentiment categories: "Excellent", "Good", "Moderate", "Bad" and "Poor" for ratings 5,4,3,2,1 respectively. The same steps as above was repeated for further analysis.
+
+---
+
 # Analysis 
 
 For detailed information about the analysis, please refer to the [Data_Overview.md](Data_Overview.md) file.
