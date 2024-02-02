@@ -28,3 +28,25 @@ Sentiment analysis within the framework of NLP is crucial for businesses and org
 
 For detailed information about the dataset used in this project and the preprocessing steps applied, please refer to the [Data_Overview.md](Data_Overview.md) file.
 
+---
+
+# First Approach: Categorizing by Review Ratings
+
+The reviews were categorized into three distinct sentiment categories: "Good," "Moderate," and "Bad." Reviews with ratings of 5 or 4 were categorized as "Good," those with a rating of 3 fell into the "Moderate" category, and any ratings of 2 or 1 were classified as "Bad."
+
+### The following algorithms were implemented along with the respective evaluation metrics 
+
+**Machine Learning Algorithms**
+- Decision Tree
+- Naive Bayes Classifier
+- Random Forest
+- Support Vector Machines (SVM)
+- K-Nearest Neighbors (KNN)
+
+**Deep Learning Algorithms**
+- LSTM
+- Bidirectional LSTM
+- CuDNNLSTM (LSTM variant optimized for GPUs)
+- Gated Recurrent Unit (GRU)
+- XGBoost
+- Convolution Neural Network (CNN)
