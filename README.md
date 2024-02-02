@@ -22,3 +22,9 @@ Sentiment analysis, also referred to as opinion mining, is a fundamental natural
 
 Sentiment analysis within the framework of NLP is crucial for businesses and organizations to understand public opinion and user feedback with a deeper understanding of language context. This project aims to provide a practical and scalable solution for sentiment analysis within the broader field of NLP, offering a range of models to cater to different datasets and requirements.
 
+---
+
+### Dataset Overview and Preprocessing Details
+
+For detailed information about the dataset used in this project and the preprocessing steps applied, please refer to the [Data_Overview.md](Data_Overview.md) file.
+
