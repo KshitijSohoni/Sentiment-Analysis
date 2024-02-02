@@ -51,6 +51,7 @@ The reviews were categorized into three distinct sentiment categories: "Good," "
 - XGBoost
 - Convolution Neural Network (CNN)
 
-  For more details on the algorithms used, please refer to the respective folders:
-- [Machine Learning Algorithms](Sentiment-Analysis/Machine Learning Algorithms/)
-- [Deep Learning Algorithms](Sentiment-Analysis/Deep Learning Algorithms/)
+For more details on the algorithms used, please refer to the respective folders:
+- [Machine Learning Algorithms](Machine-Learning-Algorithms/)
+- [Deep Learning Algorithms](Deep-Learning-Algorithms/)
+
