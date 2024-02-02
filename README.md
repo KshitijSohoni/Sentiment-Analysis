@@ -55,3 +55,41 @@ For more details on the algorithms used, please refer to the respective folders:
 - [Machine Learning Algorithms](Machine%20Learning%20Algorithms/)
 - [Deep Learning Algorithms](Deep%20Learning%20Algorithms/)
 
+
+### Resampling  
+The distribution chart was analyzed for the three sentiment categories ("Good," "Moderate," and "Bad"). Due to an uneven distribution, resampling was performed to ensure a balanced representation of each sentiment category. This process was applied consistently across all machine learning and deep learning algorithms used previously.
+
+
+### Principal Component Analysis to check for improvements
+Principal Component Analysis (PCA) is a dimensionality reduction technique commonly used in various fields, including Natural Language Processing (NLP). It can be employed to enhance machine learning models in NLP by reducing the dimensionality of the feature space while preserving essential information. PCA is used to transform the original high-dimensional feature space into a lower-dimensional space while retaining as much of the variance in the data as possible. This reduction in dimensionality can lead to more efficient model training and potentially improved model performance. The number of principal components (PCs) to retain is a hyperparameter that can be tuned.
+
+Principal Component Analysis (PCA) was employed for feature selection to reduce dimensionality and enhance the efficiency of the sentiment analysis models. 
+
+
+### Dynamic Classifier Selection 
+Dynamic Classifier Selection (DCS) is a machine learning technique used to improve classification performance by dynamically selecting an appropriate base classifier for each instance in the dataset. DCS can be particularly useful in scenarios where different base classifiers perform better on different subsets of the data. In traditional machine learning, a single base classifier (e.g., a decision tree, SVM, or neural network) is trained on the entire dataset. However, different instances within the dataset may exhibit varying levels of complexity or require different modeling approaches.
+
+DCS Application: DCS improves model performance by selecting the most appropriate classifier for each data instance. Here's how it works:
+•	Classifier Pool: DCS typically starts with a pool of diverse base classifiers, each of which may have strengths and weaknesses.
+•	Instance-Level Selection: For each data instance to be classified, DCS analyzes the instance's characteristics and selects the most suitable base classifier from the pool.
+•	Combination or Voting: The predictions made by multiple base classifiers can be combined (e.g., by weighted voting) to produce the final classification decision.
+•	Dynamic Adaptation: The choice of the base classifier is dynamic, meaning it can vary from one instance to another.
+
+This was employed to check for any improvements in the accuracy of the models.
+
+### Ensemble Methods
+
+Ensemble methods were employed to further enhance the performance of the sentiment analysis models. The following ensemble methods were utilized:
+
+- **LSTM + BiLSTM + Random Forest**
+- **CNN + Random Forest + Decision Tree**
+
+These combinations leverage the strengths of multiple algorithms, contributing to a robust and accurate sentiment analysis system.
+
+---
+
+# Analysis 
+
+For detailed information about the analysis, please refer to the [Data_Overview.md](Data_Overview.md) file.
+
+
