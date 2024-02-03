@@ -94,8 +94,8 @@ The reviews were now categorized into five distinct sentiment categories: "Excel
 
 ---
 
-# Analysis 
+# Conclusion 
 
-For detailed information about the analysis, please refer to the [Data_Overview.md](Data_Overview.md) file.
+It was noticed that the ensemble method (CNN + Random Forest + Decision Tree) gave the best accuracy score of 94.55%
 
 
